@@ -3,9 +3,8 @@ import cv2
 import zipfile
 from tqdm.auto import tqdm
 
-#result_dir = 'C:/Data/result'
-result_dir ='D:/Deep/Hat/results/HAT-L_SRx4_ImageNet-pretrain/visualization/Set5'
-result_output_dir = 'D:/Data/result_output'
+result_dir ='./results/HAT-L_SRx4_ImageNet-pretrain/visualization/Set5'
+result_output_dir = 'D:/output'
 result_image_list = []
 
 file_list = os.listdir(result_dir)

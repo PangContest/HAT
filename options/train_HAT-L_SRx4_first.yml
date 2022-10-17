@@ -10,8 +10,8 @@ datasets:
   train:
     name: DF2K
     type: PairedImageDataset
-    dataroot_gt: C:/train_sub/train/hr_sub
-    dataroot_lq: C:/train_sub/train/lr_sub
+    dataroot_gt: ./data/train_sub/train/hr_sub
+    dataroot_lq: ./data/train_sub/train/lr_sub
     meta_info_file: hat/data/meta_info/meta_info_super_2_sub_GT.txt
     io_backend:
       type: disk
@@ -30,8 +30,8 @@ datasets:
   val_1:
     name: Set5
     type: PairedImageDataset
-    dataroot_gt: F:/train/valid/hr
-    dataroot_lq: F:/train/valid/lr
+    dataroot_gt: ./data/valid/hr
+    dataroot_lq: ./data/valid/lr
     io_backend:
       type: disk
 

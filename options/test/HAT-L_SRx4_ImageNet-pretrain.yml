@@ -10,8 +10,8 @@ datasets:
     type: PairedImageDataset
     #dataroot_gt: D:/train/valid/hr
     #dataroot_lq: D:/train/valid/lr
-    dataroot_gt: D:/Data/super/test/hr
-    dataroot_lq: D:/Data/super/test/lr
+    dataroot_gt: ./data/test/hr
+    dataroot_lq: ./data/test/lr
     io_backend:
       type: disk
 

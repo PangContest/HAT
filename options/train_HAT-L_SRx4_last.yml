@@ -73,7 +73,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: ./experiments/pretrained_models/net_g_780000.pth
+  pretrain_network_g: ./experiments/pretrained_models/p2_net_g_250000.pth
   param_key_g: 'params_ema'
   strict_load_g: true
   resume_state: ~
@@ -89,10 +89,10 @@ train:
 
   scheduler:
     type: MultiStepLR
-    milestones: [125000, 200000, 225000, 240000]
+    milestones: [400000]
     gamma: 0.5
 
-  total_iter: 250000
+  total_iter: 750000
   warmup_iter: -1  # no warm up
 
   # losses
